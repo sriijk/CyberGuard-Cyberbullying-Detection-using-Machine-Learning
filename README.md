@@ -106,7 +106,27 @@ Note: Dataset not included in the repository due to licensing. You can use any b
 ---
 
 ## 📁 Project Structure
-<pre lang="markdown"> ## 📁 Project Structure ```text CyberGuard/ ├── app.py # Flask web app ├── train_model.py # Model training script ├── model/ │ ├── cyberbully_model.pkl │ ├── vectorizer.pkl │ ├── accuracy_score.png │ ├── confusion_matrix.png │ ├── classification_metrics_heatmap.png │ └── roc_curve.png ├── templates/ │ ├── home.html │ ├── detect.html │ ├── about.html │ ├── services.html │ └── contact.html ├── static/ │ └── (optional CSS/images if added later) ├── README.md └── requirements.txt ``` </pre>
+
+CyberGuard/
+├── app.py                      # Flask web app
+├── train_model.py              # Model training script
+├── model/
+│   ├── cyberbully_model.pkl
+│   ├── vectorizer.pkl
+│   ├── accuracy_score.png
+│   ├── confusion_matrix.png
+│   ├── classification_metrics_heatmap.png
+│   └── roc_curve.png
+├── templates/
+│   ├── home.html
+│   ├── detect.html
+│   ├── about.html
+│   ├── services.html
+│   └── contact.html
+├── static/
+│   └── (optional CSS/images if added later)
+├── README.md
+└── requirements.txt
 
 ---
 
