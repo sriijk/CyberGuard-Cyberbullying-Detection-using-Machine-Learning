@@ -60,11 +60,11 @@ Here’s how the model performed during evaluation:
 
 | ✅ Accuracy Score | 📉 Confusion Matrix |
 |------------------|---------------------|
-| ![Accuracy Score](accuracy_score.png) | ![Confusion Matrix](confusion_matrix.png) |
+| ![Accuracy Score](plots/accuracy_score.png) | ![Confusion Matrix](plots/confusion_matrix.png) |
 
 | 🧮 Classification Metrics | 🧬 ROC Curve |
 |---------------------------|--------------|
-| ![Classification Metrics](heatmap.png) | ![ROC Curve](ROCgraph.png) |
+| ![Classification Metrics](plots/heatmap.png) | ![ROC Curve](plots/ROCgraph.png) |
 
 --- 
 
