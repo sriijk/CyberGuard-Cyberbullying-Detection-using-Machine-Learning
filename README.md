@@ -112,21 +112,20 @@ Note: Dataset not included in the repository due to licensing. You can use any b
 CyberGuard/
 ├── app.py                      # Flask web app
 ├── train_model.py              # Model training script
-├── model/
-│   ├── cyberbully_model.pkl
-│   ├── vectorizer.pkl
+├── plots/
 │   ├── accuracy_score.png
 │   ├── confusion_matrix.png
 │   ├── classification_metrics_heatmap.png
 │   └── roc_curve.png
+├── models/
+│   ├── cyberbully_model.pkl
+│   ├── vectorizer.pkl
 ├── templates/
 │   ├── home.html
 │   ├── detect.html
 │   ├── about.html
 │   ├── services.html
 │   └── contact.html
-├── static/
-│   └── (optional CSS/images if added later)
 ├── README.md
 └── requirements.txt
 
