@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Cyberbullying Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+  <style>
+    body {
+  background-color: #1e1e2f;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+}
+
+    .sidebar {
+      height: 100vh;
+      width: 250px;
+      background-image: url("https://wallpapers.com/images/file/security-background-34xt02xvyr8alu5t.jpg");
+      
+      position: fixed;
+      padding: 20px 0;
+    }
+    .sidebar a {
+      color: white;
+      display: block;
+      padding: 12px 25px;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      background-color: #1abc9c;
+    }
+    .main {
+      margin-left: 260px;
+      padding: 40px;
+    }
+    .btn-try {
+      background-color: #00ffd5;
+      color: black;
+      border: none;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn-try:hover {
+      background-color: #00c1a0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="text-center mb-4">
+      <img src="https://www.fsedu.com.au/media/website_pages/blog/how-to-identify-cyberbullying/Cyberbullying-image-2_1239x826a.jpg" class="img-fluid rounded-circle" width="100">
+      <h4 class="text-white mt-2">Cyber Detector</h4>
+    </div>
+    <a href="/">🏠 Home</a>
+    <a href="/about">ℹ️ About</a>
+    <a href="/services">🛠 Services</a>
+    <a href="/contact">📩 Contact</a>
+    <a href="/detect">🧠 Try Detection</a>
+  </div>
+  <!-- Main Content -->
+  <div class="main">
+  <h1 class="mb-4">Welcome to Cyberbullying Detection</h1>
+
+  <p>
+    <strong>Cyberbullying</strong> involves using digital platforms like social media or messaging apps to harass, threaten, or embarrass someone. Unlike traditional bullying, it happens anytime and can spread quickly.
+  </p>
+
+  <h4 class="mt-4">💬 Common Forms:</h4>
+  <ul>
+    <li><strong>Harassment:</strong> Repeated abusive messages</li>
+    <li><strong>Flaming:</strong> Hostile or provoking posts</li>
+    <li><strong>Outing:</strong> Sharing private info publicly</li>
+    <li><strong>Impersonation:</strong> Faking identity to harm others</li>
+    <li><strong>Exclusion:</strong> Leaving someone out online</li>
+  </ul>
+
+  <h4 class="mt-4">⚠️ What This App Detects:</h4>
+  <ul>
+    <li><strong>Hate Speech:</strong> Abuse based on identity</li>
+    <li><strong>Threats:</strong> Hints or claims of violence</li>
+    <li><strong>Verbal Abuse:</strong> Name-calling or shaming</li>
+    <li><strong>Profanity:</strong> Offensive or aggressive language</li>
+  </ul>
+
+  <h4 class="mt-4">🧠 How It Works:</h4>
+  <p>
+    This tool uses <strong>Machine Learning (Logistic Regression)</strong> and <strong>NLP (TF-IDF)</strong> to detect harmful language. Trained on real examples, it classifies text as safe or offensive.
+  </p>
+
+  <p>
+    Developed with <strong>Python</strong> and <strong>Flask</strong>, this app is useful for students, teachers, parents, and moderators to recognize and address online bullying.
+  </p>
+
+    <!-- Try Detection Button -->
+    <div class="mt-5">
+      <a href="/detect" class="btn btn-try">🧠 Try Cyberbullying Detection Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
