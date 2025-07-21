@@ -59,11 +59,11 @@ Here’s how the model performed during evaluation:
 
 | ✅ Accuracy Score | 📉 Confusion Matrix |
 |------------------|---------------------|
-| ![Accuracy Score](model/accuracy_score.png) | ![Confusion Matrix](model/confusion_matrix.png) |
+| ![Accuracy Score](model/accuracy_score.png) | ![Confusion Matrix](confusion_matrix.png) |
 
 | 🧮 Classification Metrics | 🧬 ROC Curve |
 |---------------------------|--------------|
-| ![Classification Metrics](model/classification_metrics_heatmap.png) | ![ROC Curve](model/roc_curve.png) |
+| ![Classification Metrics](heatmap.png) | ![ROC Curve](ROCgraph.png) |
 
 --- 
 
@@ -107,6 +107,7 @@ Note: Dataset not included in the repository due to licensing. You can use any b
 
 ## 📁 Project Structure
 
+```
 CyberGuard/
 ├── app.py                      # Flask web app
 ├── train_model.py              # Model training script
@@ -127,6 +128,8 @@ CyberGuard/
 │   └── (optional CSS/images if added later)
 ├── README.md
 └── requirements.txt
+
+```
 
 ---
 
