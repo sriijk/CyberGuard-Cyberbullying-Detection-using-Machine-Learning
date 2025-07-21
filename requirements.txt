@@ -1,3 +1,6 @@
 flask
 scikit-learn
 pandas
+matplotlib
+seaborn
+gunicorn
