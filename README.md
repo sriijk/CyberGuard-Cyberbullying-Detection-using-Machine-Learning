@@ -1,6 +1,7 @@
 # 🛡️ CyberGuard – Cyberbullying Detection using Machine Learning
 
 **CyberGuard** is an ML-powered web application designed to detect cyberbullying in social media posts. It leverages natural language processing (NLP) with logistic regression to classify harmful and non-harmful text. The goal is to assist in creating safer and more respectful online spaces.
+
  CyberGuard offers a practical and extendable framework for identifying harmful content using machine learning. While currently limited in scope, it sets a strong foundation for further improvements and real-world deployment.
  
 ---
@@ -63,7 +64,7 @@ Here’s how the model performed during evaluation:
 
 | 🧮 Classification Metrics | 🧬 ROC Curve |
 |---------------------------|--------------|
-| ![Classification Metrics](heatmap.png) | ![ROC Curve](ROC graph.png) |
+| ![Classification Metrics](heatmap.png) | ![ROC Curve](ROCgraph.png) |
 
 --- 
 
