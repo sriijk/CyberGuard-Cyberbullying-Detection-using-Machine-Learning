@@ -3,6 +3,8 @@
 **CyberGuard** is an ML-powered web application designed to detect cyberbullying in social media posts. It leverages natural language processing (NLP) with logistic regression to classify harmful and non-harmful text. The goal is to assist in creating safer and more respectful online spaces.
 
  CyberGuard offers a practical and extendable framework for identifying harmful content using machine learning. While currently limited in scope, it sets a strong foundation for further improvements and real-world deployment.
+
+ 🔗 Live Demo: [Try CyberGuard on Hugging Face 🚀](https://huggingface.co/spaces/SrishtiB/cyberguard-cyberbullying-detector)
  
 ---
 
@@ -126,6 +128,7 @@ CyberGuard/
 │   ├── about.html
 │   ├── services.html
 │   └── contact.html
+├── Dockerfile                  # for hugging face deployment   
 ├── README.md
 └── requirements.txt
 
